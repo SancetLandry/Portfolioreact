@@ -1,0 +1,23 @@
+.leftbar_img {
+  width: 2em;
+  height: auto;
+}
+
+#leftbar_containerItems {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  position: fixed;
+  bottom: 0;
+  padding-left: 3.5em;
+}
+
+li#leftbar_border::after {
+  content: 's';
+  padding-top:5em ;
+  margin-left: 1em;
+  color: #0A192F;
+display: block;
+border-left: 1px solid #8892B0;
+margin-top: 2em;
+}
