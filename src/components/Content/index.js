@@ -4,6 +4,7 @@ import HomePage from './HomePage';
 import About from './About';
 import Etudes from './Etudes';
 import Projets from './Projets';
+import Contact from './Contact';
 
 function Content() {
   return (
@@ -13,6 +14,7 @@ function Content() {
         <About />
         <Etudes />
         <Projets />
+        <Contact />
       </div>
 
     </div>

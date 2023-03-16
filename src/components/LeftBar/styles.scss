@@ -3,6 +3,13 @@
   height: auto;
 }
 
+.leftbar_img:hover {
+  cursor: pointer;
+  border-radius: 0.2em;
+  filter: hue-rotate(280deg) contrast(5);
+  transition: 0.2s;
+}
+
 #leftbar_containerItems {
   display: flex;
   flex-direction: column;
