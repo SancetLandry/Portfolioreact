@@ -18,12 +18,18 @@
     gap: 3em;
     padding-top: 2em;
 
+  
+
     &__img {
       width: 48%;
       height: 60%;
       object-fit: cover;
       border-radius: 1em;
       border: 1px solid #64ffdb60;;
+
+      &:hover {
+        border: 1px solid #64ffdb;
+      }
     }
   }
 }
