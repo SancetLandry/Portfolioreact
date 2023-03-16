@@ -1,0 +1,29 @@
+.projets_title {
+  padding-left: 10em;
+}
+
+.projets {
+  width: 100%;
+  height: fit-content;
+  padding-top: 10em;
+  font-family: 'Calibre';
+
+  &__imgContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding-top: 2em;
+
+    &__img {
+      width: 45%;
+      height: 45%;
+      object-fit: cover;
+      border-radius: 1em;
+      border: 1px solid #64ffdb60;;
+    }
+  }
+}

@@ -3,19 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: 10em;
   text-align: left;
   height: 75vh;
-  width: 90%;
   padding-top: 8em;
+  gap: 0.5em;
 
-  &__container {
-    padding-left: 10em;
-    display: flex;
-  flex-direction: column;
-  gap: 1em;
-
-  }
 }
 
 #homepage_title {

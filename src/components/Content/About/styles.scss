@@ -1,0 +1,46 @@
+#about {
+    height: 80vh;
+    padding-top: 10em;
+}
+
+#about_presentation {
+    display: flex;
+    flex-direction: row;
+    gap: 8em;
+    height: 100%;
+}
+
+#about_text {
+width: 30%;
+display: flex;
+flex-direction: column;
+gap: 1.5em;
+font-family: 'Calibre';
+font-size: 1.4em;
+}
+
+#about_technos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 1em;
+    justify-content: space-between;
+    padding-left: 1em;
+}
+
+.about_techno_li::before {
+    content: '';
+    padding-right: 0.5em;
+    color: #64FFDA;
+}
+
+#wordpressMoove {
+    padding-left: 1.5em;
+}
+
+#img {
+    width: 22em;
+    height: 22em;
+    border-radius: 2em;
+}

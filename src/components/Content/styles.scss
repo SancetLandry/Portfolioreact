@@ -1,0 +1,11 @@
+.Content {
+  width: auto;
+  padding-left: 10em;
+
+  &__Container {
+    padding-left: 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 20em;
+  }
+}

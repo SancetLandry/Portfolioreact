@@ -2,8 +2,7 @@ import './styles.scss';
 
 import LeftBar from 'src/components/LeftBar';
 import Header from 'src/components/Header';
-import About from 'src/components/About';
-import HomePage from 'src/components/HomePage';
+import Content from 'src/components/Content';
 
 // == Composant
 function App() {
@@ -11,8 +10,7 @@ function App() {
     <div className="app">
       <Header />
       <LeftBar />
-      <HomePage />
-      <About />
+      <Content />
     </div>
 
   );

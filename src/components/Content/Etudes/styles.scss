@@ -1,0 +1,28 @@
+#etudes {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5em;
+  height: fit-content;
+  font-family: 'Calibre';
+  line-height: 1.2em;
+  font-weight: 400;
+  padding-top: 10em;
+
+}
+
+#etudes_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  font-size: 1.4em;
+}
+
+.etudes_card_params {
+  background-color: #122d5541;
+  border-radius: 0.5em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 55%;
+}
