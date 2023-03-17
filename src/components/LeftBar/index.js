@@ -1,4 +1,5 @@
 import './styles.scss';
+import './responsive.scss';
 
 import github from 'src/assets/img/github.png';
 import instagram from 'src/assets/img/instagram.png';
