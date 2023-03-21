@@ -28,3 +28,20 @@ display: block;
 border-left: 1px solid #8892B0;
 margin-top: 2em;
 }
+
+@media (max-width: 767px) {
+  #leftbar_containerItems {
+    flex-direction: row;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1em;
+    padding: 0.2em;
+    background-color: #122d5542;
+    border-radius: 0.5em;
+  }
+
+  li#leftbar_border::after {
+    display: none;
+  }
+}
